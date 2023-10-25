@@ -1,0 +1,22 @@
+.x-homeindicator {
+  height: 34px;
+  position: relative;
+  width: 359px;
+}
+
+.x-homeindicator .home-indicator {
+  border-radius: 100px;
+  height: 5px;
+  left: 113px;
+  position: relative;
+  top: 21px;
+  width: 134px;
+}
+
+.x-homeindicator .dark-theme-true {
+  background-color: var(--blackviolet-900);
+}
+
+.x-homeindicator .dark-theme-false {
+  background-color: var(--whitewhiteblue-50);
+}

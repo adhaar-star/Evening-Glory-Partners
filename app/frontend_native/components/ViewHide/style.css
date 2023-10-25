@@ -1,0 +1,36 @@
+.view-hide {
+  height: 24px;
+  width: 24px;
+}
+
+.view-hide .overlap-group {
+  height: 18px;
+  left: 2px;
+  position: relative;
+  top: 1px;
+  width: 20px;
+}
+
+.view-hide .subtract {
+  height: 8px;
+  left: 6px;
+  position: absolute;
+  top: 7px;
+  width: 8px;
+}
+
+.view-hide .img {
+  height: 14px;
+  left: 0;
+  position: absolute;
+  top: 4px;
+  width: 20px;
+}
+
+.view-hide .vector {
+  height: 17px;
+  left: 2px;
+  position: absolute;
+  top: 0;
+  width: 17px;
+}

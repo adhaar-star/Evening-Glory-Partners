@@ -1,0 +1,27 @@
+.battery-full {
+  height: 14px;
+  width: 28px;
+}
+
+.battery-full .overlap-group-2 {
+  height: 13px;
+  position: relative;
+}
+
+.battery-full .battery-fill {
+  background-color: #000000;
+  border-radius: 1.33px;
+  height: 9px;
+  left: 2px;
+  position: absolute;
+  top: 2px;
+  width: 21px;
+}
+
+.battery-full .battery-frame {
+  height: 13px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 28px;
+}

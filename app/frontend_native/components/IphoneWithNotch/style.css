@@ -1,0 +1,275 @@
+.iphone-with-notch {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  padding: 0px 12px;
+  position: relative;
+  width: 390px;
+}
+
+.iphone-with-notch .div-2 {
+  flex: 1;
+  flex-grow: 1;
+  height: 44px;
+  position: relative;
+}
+
+.iphone-with-notch .time {
+  position: relative;
+}
+
+.iphone-with-notch .element {
+  font-family: "SF Pro Text-Semibold", Helvetica;
+  font-size: 17px;
+  font-weight: 400;
+  letter-spacing: -0.68px;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.iphone-with-notch .back-arrow {
+  height: 7px;
+  left: 1px;
+  position: absolute;
+  top: 32px;
+  width: 7px;
+}
+
+.iphone-with-notch .search {
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 0;
+  color: #000000;
+  display: -webkit-box;
+  font-family: "SF Pro Text-Semibold", Helvetica;
+  font-size: 11px;
+  font-weight: 400;
+  left: 12px;
+  letter-spacing: -0.22px;
+  line-height: normal;
+  overflow: hidden;
+  position: absolute;
+  text-overflow: ellipsis;
+  top: 29px;
+  white-space: nowrap;
+}
+
+.iphone-with-notch .element-wrapper {
+  align-items: center;
+  display: inline-flex;
+  gap: 2px;
+  justify-content: center;
+  position: absolute;
+  top: 8px;
+}
+
+.iphone-with-notch .text-wrapper {
+  color: #000000;
+  font-family: "SF Pro Text-Semibold", Helvetica;
+  font-size: 17px;
+  font-weight: 400;
+  letter-spacing: -0.68px;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.iphone-with-notch .notch-area {
+  height: 44px;
+  position: relative;
+}
+
+.iphone-with-notch .status-area {
+  height: 14px;
+  position: absolute;
+  top: 18px;
+}
+
+.iphone-with-notch .auto-layout {
+  align-items: center;
+  display: inline-flex;
+  justify-content: flex-end;
+  position: relative;
+}
+
+.iphone-with-notch .network-wifi-full {
+  height: 12px !important;
+  position: relative !important;
+  width: 20px !important;
+}
+
+.iphone-with-notch .battery-full-uncharged {
+  position: relative !important;
+}
+
+.iphone-with-notch .on-call-hotspot {
+  background-color: #34c759;
+  border-radius: 100px;
+  height: 23px;
+  top: 14px;
+  width: 66px;
+}
+
+.iphone-with-notch .location-screen-mirrioring {
+  background-color: #007aff;
+  border-radius: 100px;
+  height: 23px;
+  top: 14px;
+  width: 66px;
+}
+
+.iphone-with-notch .with-back-to-app {
+  left: 18px;
+  top: 14px;
+}
+
+.iphone-with-notch .recording {
+  background-color: #ff3b30;
+  border-radius: 100px;
+  height: 23px;
+  top: 14px;
+  width: 66px;
+}
+
+.iphone-with-notch .share-play {
+  background-color: #5856d6;
+  border-radius: 100px;
+  height: 23px;
+  top: 14px;
+  width: 66px;
+}
+
+.iphone-with-notch .normal {
+  align-items: center;
+  display: inline-flex;
+  gap: 2px;
+  justify-content: center;
+  top: 16px;
+}
+
+.iphone-with-notch .normal.standard-iphone-12-and-before {
+  left: 22px;
+}
+
+.iphone-with-notch .normal.narrow-iphone-13-series {
+  left: 34px;
+}
+
+.iphone-with-notch .share-play.standard-iphone-12-and-before {
+  left: 6px;
+}
+
+.iphone-with-notch .recording.standard-iphone-12-and-before {
+  left: 6px;
+}
+
+.iphone-with-notch .narrow-iphone-13-series.on-call-hotspot {
+  left: 18px;
+}
+
+.iphone-with-notch .recording.narrow-iphone-13-series {
+  left: 18px;
+}
+
+.iphone-with-notch .standard-iphone-12-and-before.location-screen-mirrioring {
+  left: 6px;
+}
+
+.iphone-with-notch .share-play.narrow-iphone-13-series {
+  left: 18px;
+}
+
+.iphone-with-notch .narrow-iphone-13-series.location-screen-mirrioring {
+  left: 18px;
+}
+
+.iphone-with-notch .standard-iphone-12-and-before.on-call-hotspot {
+  left: 6px;
+}
+
+.iphone-with-notch .notch-size-narrow-iphone-13-series {
+  width: 89px;
+}
+
+.iphone-with-notch .notch-size-standard-iphone-12-and-before {
+  width: 66px;
+}
+
+.iphone-with-notch .notch-size-0-narrow-iphone-13-series {
+  left: 34px;
+}
+
+.iphone-with-notch .notch-size-0-standard-iphone-12-and-before {
+  left: 22px;
+}
+
+.iphone-with-notch .notch-size-1-narrow-iphone-13-series {
+  width: 164px;
+}
+
+.iphone-with-notch .notch-size-1-standard-iphone-12-and-before {
+  width: 210px;
+}
+
+.iphone-with-notch .notch-size-2-narrow-iphone-13-series {
+  left: 13px;
+  width: 76px;
+}
+
+.iphone-with-notch .notch-size-2-standard-iphone-12-and-before {
+  left: 1px;
+  width: 74px;
+}
+
+.iphone-with-notch .time.on-call-hotspot .element {
+  color: #ffffff;
+  left: 16px;
+  position: absolute;
+  text-align: center;
+  top: 1px;
+}
+
+.iphone-with-notch .time.location-screen-mirrioring .element {
+  color: #ffffff;
+  left: 16px;
+  position: absolute;
+  text-align: center;
+  top: 1px;
+}
+
+.iphone-with-notch .time.with-back-to-app .element {
+  color: #ffffff;
+  position: absolute;
+}
+
+.iphone-with-notch .time.recording .element {
+  color: #ffffff;
+  left: 16px;
+  position: absolute;
+  text-align: center;
+  top: 1px;
+}
+
+.iphone-with-notch .time.share-play .element {
+  color: #ffffff;
+  left: 16px;
+  position: absolute;
+  text-align: center;
+  top: 1px;
+}
+
+.iphone-with-notch .time.normal .element {
+  color: #000000;
+  margin-top: -1px;
+  position: relative;
+  width: fit-content;
+}
+
+.iphone-with-notch .status-area.notch-size-2-narrow-iphone-13-series .auto-layout {
+  gap: 4px;
+}
+
+.iphone-with-notch .status-area.notch-size-2-standard-iphone-12-and-before .auto-layout {
+  gap: 3px;
+}
